@@ -10,3 +10,7 @@
 - **Place the project in the appropriate category.** If no category fits, propose a new one.
 - **Check that the project is actively maintained** and has a reasonable number of stars/users.
 - **No duplicates.** Search existing entries before submitting.
+
+## Thank you!
+
+Your contributions help keep this list valuable for the community.
