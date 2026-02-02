@@ -1,17 +1,10 @@
-# Awesome Python x Rust [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Python Rust [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of Python tools, libraries, and frameworks with Rust under the hood.
-
-## Why Rust for Python?
-
-Python's flexibility makes it ideal for rapid development, but computationally intensive operations can become bottlenecks. Rust provides memory safety without garbage collection overhead, zero-cost abstractions, and safe concurrency—making it increasingly popular for implementing performance-critical Python components.
-
-This list tracks the growing movement of Python projects leveraging Rust for their performance-critical components.
-
----
+> A curated list of Python tools, libraries, and frameworks with Rust under the hood.
 
 ## Contents
 
+- [Why Rust for Python](#why-rust-for-python)
 - [Package Management & Tooling](#package-management--tooling)
 - [Rust-Python Interop](#rust-python-interop)
 - [Linting, Formatting & Type Checking](#linting-formatting--type-checking)
@@ -36,6 +29,12 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 - [Finance](#finance)
 - [Geospatial](#geospatial)
 - [Miscellaneous](#miscellaneous)
+
+## Why Rust for Python
+
+Python's flexibility makes it ideal for rapid development, but computationally intensive operations can become bottlenecks. Rust provides memory safety without garbage collection overhead, zero-cost abstractions, and safe concurrency—making it increasingly popular for implementing performance-critical Python components.
+
+This list tracks the growing movement of Python projects leveraging Rust for their performance-critical components.
 
 ---
 
@@ -65,7 +64,7 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 
 ## Data Processing & DataFrames
 
-- [polars](https://github.com/pola-rs/polars) - Blazingly fast DataFrame library with lazy evaluation and parallel execution. Often 5-10x faster than pandas with significantly lower memory usage.
+- [polars](https://github.com/pola-rs/polars) - Blazingly fast DataFrame library with lazy evaluation and parallel execution. Often 5-10x faster than Pandas with significantly lower memory usage.
 - [datafusion-python](https://github.com/apache/datafusion-python) - Python bindings for Apache DataFusion, an in-memory query engine.
 - [delta-rs](https://github.com/delta-io/delta-rs) - Native Rust library for Delta Lake with Python bindings (`deltalake` on PyPI).
 - [connector-x](https://github.com/sfu-db/connector-x) - Fastest library to load data from databases into DataFrames.
@@ -86,7 +85,7 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 
 ## Tokenization & ML
 
-- [tokenizers](https://github.com/huggingface/tokenizers) - HuggingFace's fast tokenizer library with Python bindings.
+- [tokenizers](https://github.com/huggingface/tokenizers) - Hugging Face's fast tokenizer library with Python bindings.
 - [tiktoken](https://github.com/openai/tiktoken) - A fast BPE tokenizer for use with OpenAI's models.
 - [safetensors](https://github.com/huggingface/safetensors) - A safe and fast format for storing and loading tensors.
 
@@ -176,26 +175,22 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 
 ---
 
+## Footnotes
+
+### Learning Resources
+- [PyO3 User Guide](https://pyo3.rs/) - Official guide for writing Python extensions in Rust.
+- [maturin User Guide](https://www.maturin.rs/) - Build and publish Rust Python packages.
+- [Writing Python Extensions in Rust](https://www.infoworld.com/article/3687744/how-to-write-python-extensions-in-rust-with-pyo3.html) - InfoWorld tutorial.
+
+### Articles
+- [Making Python 100x faster with less than 100 lines of Rust](https://ohadravid.github.io/posts/2023-03-rusty-python/) - Performance optimization guide.
+- [Why Rust is the Future of Python Tooling](https://pythonspeed.com/articles/rust-python-tooling/) - Analysis of the Rust-Python ecosystem.
+
+### Communities
+- [PyO3 Discord](https://discord.gg/33kcChzH7f) - Official PyO3 community.
+- [r/rust](https://reddit.com/r/rust) - Rust community.
+- [r/Python](https://reddit.com/r/Python) - Python community.
+
 ## Contributing
 
 Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
-
-## Acknowledgements
-
-Inspired by [awesome-python](https://github.com/vinta/awesome-python).
-
-## Resources
-
-### Learning
-- [PyO3 User Guide](https://pyo3.rs/) - Official guide for writing Python extensions in Rust
-- [maturin User Guide](https://www.maturin.rs/) - Build and publish Rust Python packages
-- [Writing Python Extensions in Rust](https://www.infoworld.com/article/3687744/how-to-write-python-extensions-in-rust-with-pyo3.html) - InfoWorld tutorial
-
-### Articles
-- [Making Python 100x faster with less than 100 lines of Rust](https://ohadravid.github.io/posts/2023-03-rusty-python/)
-- [Why Rust is the Future of Python Tooling](https://pythonspeed.com/articles/rust-python-tooling/)
-
-### Communities
-- [PyO3 Discord](https://discord.gg/33kcChzH7f)
-- [r/rust](https://reddit.com/r/rust) - Rust community
-- [r/Python](https://reddit.com/r/Python) - Python community
